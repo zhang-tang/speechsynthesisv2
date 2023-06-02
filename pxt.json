@@ -1,14 +1,15 @@
 {
     "name": "speechSynthesisV2",
-    "description": "",
+    "description": "Simple and easy to use Chinese and English speech synthesis module, let your project speak.",
     "dependencies": {
-        "core": "*",
-        "radio": "*",
-        "microphone": "*"
+        "core": "*"
     },
+    "license": "MIT",
     "files": [
         "main.blocks",
         "main.ts",
+        "_locales/zh-cn/speechSynthesisV2-strings.json",
+        "_locales/zh-cn/speechSynthesisV2-jsdoc-strings.json",
         "README.md",
         "speechSynthesisV2.ts"
     ],

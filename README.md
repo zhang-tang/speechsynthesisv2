@@ -1,31 +1,24 @@
 
-> 在 [https://zhang-tang.github.io/speechsynthesisv2/](https://zhang-tang.github.io/speechsynthesisv2/) 打开此页面
+# Speech Synthesis V2
 
-## 用作扩展
+## Introduction
 
-此仓库可以作为 **插件** 添加到 MakeCode 中。
+Would you like to add voice to your projects? Connect up this Speech Synthesis module, add a few couple of lines of code, then here goes, your project starts speaking. Both Chinese and English are "so easy" for this speech synthesis module. It also can broadcast the current time and environment data. Combined with a speech recognition module, you can easily have conversations with your projects! The module uses I2C and UART two communication modes, gravity interface, and is compatible with most main controllers on the market. Besides, the module already comes with a speaker, so you don't need to buy one.
 
-* 打开 [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* 点击 **新项目**
-* 点击齿轮图标菜单下的 **扩展**
-* 搜索 **https://github.com/zhang-tang/speechsynthesisv2** 并导入
+[Purchase link](https://www.dfrobot.com/product-2234.html)
 
-## 编辑此项目 ![Build status badge](https://github.com/zhang-tang/speechsynthesisv2/workflows/MakeCode/badge.svg)
+[Tutorial Links](https://wiki.dfrobot.com/Gravity_Speech_Synthesis_Module_V2_SKU_DFR0760)
 
-在 MakeCode 中编辑此仓库。
 
-* 打开 [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* 点击 **导入**，然后点击 **导入 URL**
-* 粘贴 **https://github.com/zhang-tang/speechsynthesisv2** 并点击导入
+## Basic usage
 
-## Blocks preview
 
-This image shows the blocks code from the last commit in master.
-This image may take a few minutes to refresh.
+## License
 
-![A rendered view of the blocks](https://github.com/zhang-tang/speechsynthesisv2/raw/master/.github/makecode/blocks.png)
+MIT
 
-#### 元数据（用于搜索、渲染）
+Copyright (c) 2020, microbit/micropython Chinese community  
+
+## Supported targets
 
 * for PXT/microbit
-<script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
