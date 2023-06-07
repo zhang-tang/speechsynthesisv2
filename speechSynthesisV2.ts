@@ -91,11 +91,11 @@ namespace speechSynthesisV2 {
             if (readACK() == 0x4f)
                 break;
         }
-        speakElish("[n1]");
-        setVolume(5);
-        setSpeed(5);
-        setTone(5);
-        setEnglishPron(ENpron.WORD);
+        // speakElish("[n1]");
+        setVolume(1);
+        // setSpeed(5);
+        // setTone(5);
+        // setEnglishPron(ENpron.WORD);
     }
 
     /**

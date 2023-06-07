@@ -1,1 +1,7 @@
-// 在此处测试；当此软件包作为插件使用时，将不会编译此软件包。
+speechSynthesisV2.begin()
+speechSynthesisV2.setPara(2, 5, 5)
+speechSynthesisV2.setPronunciation(speechSynthesisV2.ENpron.WORD)
+speechSynthesisV2.speak("hello")
+basic.forever(function () {
+
+})
